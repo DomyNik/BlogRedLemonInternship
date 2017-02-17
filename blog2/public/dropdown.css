@@ -1,0 +1,86 @@
+.navbar.navbar-default.navbar-static-top li a {
+    color: #7f8c8d;
+}
+
+
+<style type="text/css">
+body {
+    background-color: #86c6d7;
+    text-align: left;
+    padding: 20px;
+}
+#main-nav {
+    width: 1000px;
+    
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+ #main-nav .main-nav-item {
+    display: inline;
+}
+#main-nav .main-nav-tab {
+    float: left;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+        
+    text-decoration: none;
+    font-size: 14px;
+}
+#main-nav .main-nav-item-active .main-nav-tab {
+    background-color: #FFF;
+    color: #f60;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#main-nav .main-nav-dd {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    border-bottom: 4px solid #f60;
+    display: none;
+}
+#main-nav .main-nav-item-active .main-nav-dd {
+    display: block;
+}
+#main-nav .main-nav-dd-column {
+    width: 130px;
+    padding: 15px 20px 8px;
+    display: table-cell;
+    border-left: 1px solid #ddd;
+    *float: left;
+    *border-left: 0;
+}
+#main-nav .main-nav-dd-column:first-child {
+    border-left: 0;
+}
+#main-nav .main-nav-dd h3 {
+    font-size: 14px;
+    color: #86c6d7;
+}
+#main-nav .main-nav-dd a {
+    color: #777;
+    text-decoration: none;
+}
+#main-nav .main-nav-dd a:hover {
+    color: #86c6d7;
+    text-decoration: underline;
+}
+#main-nav .main-nav-dd ul {
+    list-style: none;
+    padding: 0;
+}
+#main-nav .main-nav-dd hr {
+    border: 1px dotted #ddd;
+}
+</style>

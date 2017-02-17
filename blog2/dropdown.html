@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<title>Huge Dropdown Menu (example)</title>
+
+<style type="text/css">
+body {
+    
+    
+}
+#main-nav {
+    width: 800px;
+    height: 50px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+#main-nav .main-nav-item {
+    display: inline;
+}
+#main-nav .main-nav-tab {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+#main-nav .main-nav-item-active .main-nav-tab {
+    background-color: #FFF;
+    color: #f60;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#main-nav .main-nav-dd {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    border-bottom: 4px solid #f60;
+    display: none;
+}
+#main-nav .main-nav-item-active .main-nav-dd {
+    display: block;
+}
+#main-nav .main-nav-dd-column {
+    width: 130px;
+    padding: 15px 20px 8px;
+    display: table-cell;
+    border-left: 1px solid #ddd;
+    *float: left;
+    *border-left: 0;
+}
+#main-nav .main-nav-dd-column:first-child {
+    border-left: 0;
+}
+#main-nav .main-nav-dd h3 {
+    font-size: 14px;
+    color: #86c6d7;
+}
+#main-nav .main-nav-dd a {
+    color: #777;
+    text-decoration: none;
+}
+#main-nav .main-nav-dd a:hover {
+    color: #86c6d7;
+    text-decoration: underline;
+}
+#main-nav .main-nav-dd ul {
+    list-style: none;
+    padding: 0;
+}
+#main-nav .main-nav-dd hr {
+    border: 1px dotted #ddd;
+}
+</style>
+
+</head>
+
+<body>
+
+<ul id="main-nav">
+    <li class="main-nav-item">
+        <a href="#" class="main-nav-tab">About Us</a>
+        
+        <div class="main-nav-dd">
+            <div class="main-nav-dd-column">
+                <h3>
+                About Us
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                
+                <hr />
+                
+                <h3>
+                About Us 2
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                About Us 3
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                About Us 4
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+           </div>
+        </div>
+    </li>
+    
+    <li class="main-nav-item">
+        <a href="#" class="main-nav-tab">What We Do</a>
+    
+        <div class="main-nav-dd">
+            <div class="main-nav-dd-column">
+                <h3>
+                What We Do
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                
+                <hr />
+                
+                <h3>
+                What We Do 2
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                What We Do 3
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                What We Do 4
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+           </div>
+        </div>
+    </li>
+    
+    <li class="main-nav-item">
+        <a href="#" class="main-nav-tab">Partners</a>
+    
+        <div class="main-nav-dd">
+            <div class="main-nav-dd-column">
+                <h3>
+                Partners
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                
+                <hr />
+                
+                <h3>
+                Partners 2
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                Partners 3
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                Partners 4
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+           </div>
+        </div>
+    </li>
+    
+    <li class="main-nav-item">
+        <a href="#" class="main-nav-tab">FAQs</a>
+    
+        <div class="main-nav-dd">
+            <div class="main-nav-dd-column">
+                <h3>
+                FAQs
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                
+                <hr />
+                
+                <h3>
+                FAQs 2
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                FAQs 3
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                FAQs 4
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+           </div>
+        </div>
+    </li>
+    
+    <li class="main-nav-item">
+        <a href="#" class="main-nav-tab">Contact Us</a>
+    
+        <div class="main-nav-dd">
+            <div class="main-nav-dd-column">
+                <h3>
+                Contact Us
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                
+                <hr />
+                
+                <h3>
+                Contact Us 2
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                Contact Us 3
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+           </div>
+           
+           <div class="main-nav-dd-column">
+                <h3>
+                Contact Us 4
+                </h3>
+                
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+           </div>
+        </div>
+    </li>
+</ul>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
+"></script>
+<script type="text/javascript">
+$(function() {
+    var $mainNav = $('#main-nav'),
+    navWidth = $mainNav.width();
+    
+    $mainNav.children('.main-nav-item').hover(function(ev) {
+        var $this = $(this),
+        $dd = $this.find('.main-nav-dd');
+        
+        // get the left position of this tab
+        var leftPos = $this.find('.main-nav-tab').position().left;
+        
+        // get the width of the dropdown
+        var ddWidth = $dd.width(),
+        leftMax = navWidth - ddWidth;
+        
+        // position the dropdown
+        $dd.css('left', Math.min(leftPos, leftMax) );
+        
+        // show the dropdown
+        $this.addClass('main-nav-item-active');
+    }, function(ev) {
+        // hide the dropdown
+        $(this).removeClass('main-nav-item-active');
+    });
+});
+</script>
+
+</body>
+</html>
